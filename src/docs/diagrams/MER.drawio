@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="v27trwUaj3g5O72ITzhM" name="Page-1">
+        <mxGraphModel dx="1244" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Restaurant&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name: str&lt;br&gt;cnpj: char[11]&lt;br&gt;address: Address_ID&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;phone: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;time: float&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;menu: Menu&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="90" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;entryX=0.994;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="46" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ID: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;rua: Street&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;num_house: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="90" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;State&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;acronym: varchar[2]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;city: City&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="310" width="160" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="48" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Neigborhood&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;street: Street&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="190" width="160" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;" edge="1" parent="1" source="49" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;" edge="1" parent="1" source="49" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;Street&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name: str&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;street: Street&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="90" width="160" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; text-decoration: underline;&quot;&gt;Menu&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;id_restaurant&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name_product:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;value_product:&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="300" width="160" height="85" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

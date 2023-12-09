@@ -1,0 +1,31 @@
+{
+    "1": {
+        "name": "1",
+        "cnpj": "1",
+        "address": "1",     
+        "phone": "1",
+        "time": "10",
+        "menu": {
+            "ARROZ": "10",
+            "FRANGO": "25",
+            "CARNE": "50",
+            "UVA": "12.50"
+        }
+    },
+    "2": {
+        "name": "2",
+        "cnpj": "2",
+        "address": "2",
+        "phone": "2",
+        "time": "2",
+        "menu": {}
+    },
+    "5": {
+        "name": "5",
+        "cnpj": "5",
+        "address": "5",
+        "phone": "5",
+        "time": "5",
+        "menu": {}
+    }
+}
